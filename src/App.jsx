@@ -1,11 +1,13 @@
 import Input from "./Input"
 import Usuarios from "./Usuarios"
+import userLogo from './assets/avatar.png'
 function App() {
   
 
   return (
     <div class="login-container">
       <form class="login-form">
+        <img src={userLogo} alt="Usuario"/>
         <h2>Iniciar sesión</h2>
         <Usuarios />        
         <div class="input-group">
